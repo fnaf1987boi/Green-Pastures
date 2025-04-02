@@ -1,0 +1,143 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+
+body {
+background-color:#FFFFFF;
+color:#666666;
+font-family: Arial, Helvetica, sans-serif;}
+
+header {
+background-color:#00B386;
+background-image: url(assets/pasture.png);
+background-position: right;
+background-repeat: no-repeat;
+color:#FFFFFF;
+text-align:center;
+text-indent:1em;
+line-height:400%;
+height:175px;
+padding-top:30px;
+padding-left:3em;}
+
+nav {font-size:120%;
+padding:1.5em;
+float:left;
+width:160px;
+font-weight:bold;}
+
+nav ul {list-style-type:none;
+margin:0px;
+padding-left:0px;
+font-size:1.2em;
+}
+
+nav a {text-decoration:none;}
+
+nav a:link {color: #00664D;}
+nav a:visited {color: #7A7A52;}
+nav a:hover {color: #FFFFFF;}
+
+
+main {
+padding: 1px 20px 20px 20px;
+display: block;
+background-color: #FFFFFF;
+margin-left: 190px;
+padding-left: 30px;}
+
+footer {
+padding:15px;
+text-align:center;
+font-size:75%;
+font-style:italic;
+font-family: Georgia, "Times New Roman", serif;
+margin-left:190px;
+background-color:#FFFFFF;}
+
+h1 {margin-top:0px;
+margin-bottom:0px;
+font-size:3em;
+letter-spacing:0.25em;
+font-family: Georgia, "Times New Roman", serif;}
+
+h2 {color:#00664d;
+text-shadow:1px 1px #CCCCCCC;
+font-family: Georgia, "Times New Roman", serif;}
+
+h3 {font-family: Georgia, "Times New Roman", serif;}
+
+main ul {list-style-image: url(assets/marker.gif);}
+
+dt {color:#00664d;}
+
+#wrapper {margin:auto;
+width:80%;
+background-color:#0C5442;
+background-image: linear-gradient(#FFFFFF, #0C5442);
+min-width:900px;
+max-width:2050px;
+box-shadow: 4px 4px #133926;
+border: 1px solid #003300;}
+
+.barn {color:#70DBDB;
+font-weight:bold;}
+
+#contact {font-size:90%;}
+
+#homeImage { background-image: url(assets/sunsetHorse.png);
+           height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;}
+
+#boardImage { background-image: url(assets/fenceline.png);
+           height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;}
+
+#trainingImage { background-image: url(assets/baybella.png);
+           height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 190px;}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+@media only screen and (max-width: 64em) {
+body { margin: 0;
+     background-color: #FFFFFF; }
+#wrapper { min-width: 0;
+          width: auto;
+  box-shadow: none;
+  border: none; }
+    header { padding-top: 0.5em;
+          padding-bottom: 0.5em;
+ padding-left: 0;
+          height: auto; }
+h1 { letter-spacing: 0.1em; }
+main { margin-left: 0; }
+nav { float: none;
+    width: auto;
+text-align: center;
+padding: 0.5em; }
+nav li { display: inline;
+     padding: 0.25em 0.75em; }
+    #homeImage, #boardImage, #trainingImage { margin-left: 0; height: 200px; }
+footer { margin-left: 0; }
+}
+
+@media only screen and (max-width: 37.5em) {
+main { padding: 0.1em 1em;
+  font-size: 90%; }
+h1 { font-size: 2em;}
+    nav { padding: 0; }
+nav li { display: block; margin: 0; border: solid 2px #330000; }
+nav a { display: block; }
+#homeImage, #boardImage, #trainingImage { background-image: none; height: 0; }
+#mobile {display: inline;}
+#desktop {display: none;}
+}
+
+ 
+* { box-sizing:border-box;}
