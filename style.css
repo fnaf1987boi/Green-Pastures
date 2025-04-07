@@ -5,6 +5,26 @@ background-color:#FFFFFF;
 color:#666666;
 font-family: Arial, Helvetica, sans-serif;}
 
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+gap: 10px;}
+
+nav ul li {
+display: inline;}
+
+nav ul li a {
+text-decoration: none;
+padding: 8px 16px
+background-color: #0078d4;
+color: white;
+border-radius: 4px;}
+
+nav ul li a:hover {
+background-color: #005a9e;}
+
 header {
 background-color:#00B386;
 background-image: url(assets/pasture.png);
