@@ -142,7 +142,7 @@ nav { float: none;
     width: auto;
 text-align: center;
 padding: 0.5em; }
-nav li { display: inline;
+nav li { display: block;
      padding: 0.25em 0.75em; }
     #homeImage, #boardImage, #trainingImage { margin-left: 0; height: 200px; }
 footer { margin-left: 0; }
