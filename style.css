@@ -14,7 +14,7 @@ flex-direction: column;
 gap: 10px;}
 
 nav ul li {
-display: inline;}
+display: block;}
 
 nav ul li a {
 text-decoration: none;
